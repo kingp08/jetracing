@@ -1,0 +1,51 @@
+{
+  "name": "racingEarn",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-three/drei": "^5.3.1",
+    "@react-three/fiber": "^6.2.2",
+    "@sendgrid/mail": "^8.1.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.0.1",
+    "concurrently": "^8.2.2",
+    "cookie-parser": "^1.4.6",
+    "express-fileupload": "^1.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.1.2",
+    "paytmchecksum": "^1.5.1",
+    "react": "^18.0.0-alpha-ed6c091fe-20210701",
+    "react-device-detect": "^1.17.0",
+    "react-dom": "^18.0.0-alpha-ed6c091fe-20210701",
+    "react-scripts": "4.0.3",
+    "request": "^2.88.2",
+    "sqlite3": "^5.1.7",
+    "three": "0.134.0",
+    "validator": "^13.11.0",
+    "zustand": "^3.5.2"
+  },
+  "scripts": {
+    "start": "concurrently \"node backend/server.js\" \"react-scripts start\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
